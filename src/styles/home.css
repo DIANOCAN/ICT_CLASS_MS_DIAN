@@ -1,0 +1,71 @@
+.home-container {
+  background-image: url('../assets/background-home.webp'); /* Path to your image */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Ensures background covers the full page */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+html, body {
+  height: 100%; /* Ensure body and html are also 100% height */
+  margin: 0;
+  padding: 0;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 50px; /* Rounded button */
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  color: #fff;
+  transform: scale(1.1); /* Button grows slightly */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25); /* Glowing effect */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Cool glowing border effect */
+.btn-primary:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.5));
+  opacity: 0;
+  transition: all 0.5s ease;
+  z-index: -1;
+  border-radius: 50px; /* Rounded border */
+}
+
+.btn-primary:hover:before {
+  opacity: 1;
+  transform: scale(1.2); /* Glowing effect around the button */
+}
