@@ -20,7 +20,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   // <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/ICT_CLASS_MS_DIAN">
       <App />
     </BrowserRouter>
   // </React.StrictMode>

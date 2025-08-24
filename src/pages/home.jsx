@@ -5,12 +5,12 @@ import '../styles/home.css';
 
 // Create an array to store the links and grades
 const links = [
-  { grade: 'Grade 1', url: 'https://www.typing.com/student/game/keyboard-jump', image: '/jellyfish.png' },
-  { grade: 'Grade 2', url: 'https://www.typing.com/student/game/keyboard-jump', image: '/fish.png' },
-  { grade: 'Grade 3', url: 'https://www.typing.com/student/game/keyboard-jump', image: '/dolphin.png' },
-  { grade: 'Grade 4', url: 'https://quizizz.com/join?gc=761827', image: '/dinosaur-egg.png' },
-  { grade: 'Grade 5', url: 'https://www.typingclub.com/', image: '/orca-whale.png' },
-  { grade: 'Grade 6', url: 'https://wordwall.net/resource/81799031', image: '/shark.png' },
+  { grade: 'Grade 1', url: 'https://www.crazygames.co.id/game/color-tap-coloring-by-numbers', image: '/jellyfish.png' },
+  { grade: 'Grade 2', url: 'https://wayground.com/join?gc=729130&source=liveDashboard', image: '/fish.png' },
+  { grade: 'Grade 3', url: 'https://wordwall.net/resource/95649823', image: '/dolphin.png' },
+  { grade: 'Grade 4', url: 'https://wordwall.net/resource/95515251', image: '/dinosaur-egg.png' },
+  { grade: 'Grade 5', url: 'https://wayground.com/join?gc=729130&source=liveDashboard', image: '/orca-whale.png' },
+  { grade: 'Grade 6', url: 'https://wordwall.net/resource/95784354', image: '/shark.png' },
 ];
 
 const Home = () => {
