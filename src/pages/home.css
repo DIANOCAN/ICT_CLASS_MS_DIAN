@@ -1,0 +1,31 @@
+.grade-card-fancy {
+    transition: all 0.3s ease;
+}
+
+.grade-card-fancy:hover {
+    transform: translateY(-10px);
+}
+
+.image-wrapper img {
+    transition: transform 0.5s ease;
+}
+
+.grade-card-fancy:hover .image-wrapper img {
+    transform: scale(1.05); /* Sedikit zoom saat di-hover */
+}
+
+.grade-card-fancy:hover .image-wrapper img {
+    transform: scale(1.1); /* Gambar membesar sedikit secara halus */
+    transition: transform 0.3s ease-in-out;
+}
+
+.upload-main-btn {
+    transition: all 0.3s ease;
+    border: none;
+    background: linear-gradient(45deg, #28a745, #218838);
+}
+
+.upload-main-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(40, 167, 69, 0.4) !important;
+}
